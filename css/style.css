@@ -67,6 +67,7 @@ nav .row{
     padding: 2rem 0;
     
 }
+
 .demo .col button{
     letter-spacing: 5px;
     padding: 10px 40px;
@@ -132,9 +133,33 @@ nav .row{
 
 .benefits .col{
     background-color: white;
-    height: 400px;
 
     width: 100%;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+/* Items Benefits */
+.benefits .col h1{
+    font-size: 3rem;
+}
+
+.benefits .col h1,
+.benefits .col h2{
+    color: rgba(151,146,228,255);
+}
+
+.benefits .col p{
+    color: rgba(55, 54, 54, 0.7);
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.benefits .col button{
+    margin: 30px 0;
+    padding: 10px 40px;
+    font-weight: 600;
+    letter-spacing: 5px;
     border-radius: 25px;
 }
 
@@ -189,6 +214,10 @@ footer .col{
 
 .padding-t-b-30{
     padding: 30px 0;
+}
+
+.padding-t-b-20{
+    padding: 20px 0;
 }
 
 .reset-button{
