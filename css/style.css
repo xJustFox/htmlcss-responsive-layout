@@ -40,6 +40,26 @@ nav .row{
     align-items: center;
 }
 
+/* Items Navigation Bar */
+
+nav .col ul{
+    display: none;
+    list-style: none;
+}
+
+nav .col ul li{
+    display: inline;
+    padding: 0 15px;
+}
+
+nav .col ul li:last-child{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
                 /* Main */
 
 /* Section Demo Application */
@@ -307,6 +327,10 @@ footer .col{
         min-width: 768px;
     }
 
+    nav .col ul{
+        display: none;
+    }
+
     /* Section Demo Application */
     .demo .col:first-child{
         width: calc( (100% / 3 - 5px) * 2);
@@ -370,18 +394,55 @@ footer .col{
         min-width: 1200px;
     }
 
+    /* Navigation Bar */
+
+    nav .col ul{
+        display:list-item;
+    }
+
+    nav .col i{
+        display: none;
+    }
+
+    /* Section Demo Application */
+    .demo .col:first-child{
+        display: flex;
+    }
+
+    .demo .col div{
+        width: 50%;
+    }
+
+    .demo .col img{
+        width: 100%;
+        padding-top: 63px;
+    }
+
     /* Section Planning */
     .planning .row{
         flex-wrap: nowrap;
         align-items: flex-end;
     }
 
-    /* DA ELIMINARE */
-    .planning .col:last-child{
-    }
-
     .planning .col{    
         width: calc(100% / 2);
+    }
+
+    .planning .col:last-child{
+        margin-left: 60px;
+    }
+
+    .planning .col:last-child img{
+        width: 60%;
+    }
+
+    .planning .container{
+        min-width: 950px;
+    }
+
+    /* Section Testimonials */
+    .circular-landscape{
+        width: 170px;
     }
 
     /* Section Benefits */
