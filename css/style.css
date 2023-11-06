@@ -169,10 +169,18 @@ nav .row{
 }
 
 .about-us .col{
-    background-color: blue;
-    height: 600px;
-
     width: 100%;
+}
+
+/* Items About Us */
+.about-us .col img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.about-us .col button{
+    padding: 5px 10px;
+    border-radius: 25px;
 }
 
 /* Section Started */
@@ -232,15 +240,29 @@ footer .col{
 .text-white{
     color: white;
 }
+.text-purple{
+    color: rgba(151,146,228,255);
+}
 
 .text-blue{
     color: #007aff;
+}
+
+.text-gray{
+    color: rgba(55, 54, 54, 0.7);
 }
 
 .line-height-30{
     line-height: 30px;
 }
 
+.font-weight-600{
+    font-weight: 600;
+}
+
+.font-2rem{
+    font-size: 2rem;
+}
 
 /* Background Color */
 
