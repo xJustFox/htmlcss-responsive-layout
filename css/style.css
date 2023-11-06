@@ -154,10 +154,70 @@ footer .col{
     .container{
         min-width: 768px;
     }
+
+    /* Section Demo Application */
+    .demo .col:first-child{
+        height: 500px;
+
+        width: calc( (100% / 3 - 2rem) * 2);
+    }
+
+    .demo .col{
+        height: 500px;
+    
+        width: calc(100% / 3 - 4rem);
+    }
+
+    /* Section Benefits */
+    .benefits .col{
+        height: 200px;
+    
+        width: calc(100% / 2 - 4rem);
+    }
+
+    /* Section About Us */
+    .about-us .col{
+        height: 600px;
+    
+        width: calc(100% / 2 - 4rem);
+    }   
 }
 
 @media screen and (min-width: 1200px) {
     .container{
         min-width: 1200px;
+    }
+
+    /* Section Planning */
+    .planning .row{
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+
+    /* DA ELIMINARE */
+    .planning .col:last-child{
+        height: 500px;
+    }
+
+    .planning .col{
+        height: 800px;
+    
+        width: calc(100% / 2 - 4rem);
+    }
+
+    /* Section Benefits */
+    .benefits .col{
+        height: 200px;
+    
+        width: calc(100% / 3 - 4rem);
+    }
+
+    /* Section About Us */
+    .about-us .col:first-child{
+        width: calc(70% - 8rem);
+    }  
+
+    .about-us .col:last-child{
+        width: 30% ;
     }
 }
