@@ -4,26 +4,23 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 
 /* Layout */
 .container{
     max-width: 480px;
     min-width: 360px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem 0;
-}
-
-.col{
-    margin: 0 2rem;
-}
-
-.margin-b-3rem{
-    margin-bottom: 3rem;
+    gap: 20px 20px;
 }
 
                 /* Header */
@@ -47,16 +44,34 @@ nav .row{
 }
 
 .demo .col:first-child{
-    height: 800px;
+    padding-bottom: 0;
 }
 
 .demo .col{
     background-color: #5ac7fad2;
-    height: 400px;
 
     width: 100%;
     border-radius: 25px;
+    padding: 25px;
+}
 
+/* Items Demo Application */
+.demo .col p{
+    color: rgba(55, 54, 54, 0.7);
+    font-weight: 600;
+    line-height: 30px;
+    padding: 2rem 0;
+    
+}
+.demo .col button{
+    letter-spacing: 5px;
+    padding: 10px 70px;
+    border-radius: 25px;
+}
+
+.demo .col img{
+    padding-top: 40px;
+    max-width: 100%;
 }
 
 /* Section Strategic Planning*/
@@ -136,6 +151,31 @@ footer .col{
     width: 100%;
 }
 
+
+
+/* Reusable classes */
+.margin-b-3rem{
+    margin-bottom: 3rem;
+}
+
+.reset-button{
+    text-decoration: none;
+    border: none;
+}
+
+/* Text */
+.text-centre{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+.text-blue{
+    color: #007aff;
+}
+
+
 /* Background Color */
 
 .bg-blue{
@@ -159,27 +199,27 @@ footer .col{
     .demo .col:first-child{
         height: 500px;
 
-        width: calc( (100% / 3 - 2rem) * 2);
+        width: calc( (100% / 3 - 5px) * 2);
     }
 
     .demo .col{
         height: 500px;
     
-        width: calc(100% / 3 - 4rem);
+        width: calc(100% / 3 - 15px);
     }
 
     /* Section Benefits */
     .benefits .col{
         height: 200px;
     
-        width: calc(100% / 2 - 4rem);
+        width: calc(100% / 2 - 10px);
     }
 
     /* Section About Us */
     .about-us .col{
         height: 600px;
     
-        width: calc(100% / 2 - 4rem);
+        width: calc(100% / 2 - 10px);
     }   
 }
 
@@ -202,19 +242,19 @@ footer .col{
     .planning .col{
         height: 800px;
     
-        width: calc(100% / 2 - 4rem);
+        width: calc(100% / 2);
     }
 
     /* Section Benefits */
     .benefits .col{
         height: 200px;
     
-        width: calc(100% / 3 - 4rem);
+        width: calc(100% / 3 - 15px);
     }
 
     /* Section About Us */
     .about-us .col:first-child{
-        width: calc(70% - 8rem);
+        width: calc(70% - 20px);
     }  
 
     .about-us .col:last-child{
