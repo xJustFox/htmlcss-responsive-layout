@@ -104,12 +104,25 @@ nav .row{
     padding: 3rem 0;
 }
 
-.testimonials .col{
-    background-color: #5856d6;
-    height: 400px;
+.testimonials .col:first-child{
+    background-color: white;
+}
 
+.testimonials .col{
+    background-color: rgba(151,146,228,255);
     width: 100%;
+    padding: 20px;
     border-radius: 25px;
+}
+
+/* Items Testimonials */
+.testimonials .col img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.testimonials .col p:nth-child(2){
+    padding-bottom: 20px;
 }
 
 /* Section Benefits */
@@ -193,6 +206,10 @@ footer .col{
 
 .text-blue{
     color: #007aff;
+}
+
+.line-height-30{
+    line-height: 30px;
 }
 
 
