@@ -8,6 +8,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 
 /* Layout */
 .container{
@@ -48,7 +52,7 @@ nav .row{
 }
 
 .demo .col{
-    background-color: #5ac7fad2;
+    background-color: #b5ddff;
 
     width: 100%;
     border-radius: 25px;
@@ -65,13 +69,8 @@ nav .row{
 }
 .demo .col button{
     letter-spacing: 5px;
-    padding: 10px 70px;
+    padding: 10px 40px;
     border-radius: 25px;
-}
-
-.demo .col img{
-    padding-top: 40px;
-    max-width: 100%;
 }
 
 /* Section Strategic Planning*/
@@ -80,15 +79,24 @@ nav .row{
 }
 
 .planning .col{
-    background-color: #fa5a5ad2;
-    height: 800px;
-
     width: 100%;
 }
 
 .planning .col:last-child{
     background-color: white;
     border-radius: 25px;
+    padding: 40px;
+}
+
+/* Items Strategic Planning */
+.planning .col p{
+    line-height: 30px;
+}
+
+.planning .col #arrow{
+    background-color: rgba(151,146,228,255);
+    border-radius: 50%;
+    padding: 15px;
 }
 
 /* Section Testimonials */
@@ -158,6 +166,18 @@ footer .col{
     margin-bottom: 3rem;
 }
 
+.padding-top-40{
+    padding-top: 40px;
+}
+
+.padding-t-b-40{
+    padding: 40px 0;
+}
+
+.padding-t-b-30{
+    padding: 30px 0;
+}
+
 .reset-button{
     text-decoration: none;
     border: none;
@@ -183,7 +203,7 @@ footer .col{
 }
 
 .bg-purple{
-    background-color: #5856d6;
+    background-color: rgba(151,146,228,255);
 }
 
 .bg-black{
