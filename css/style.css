@@ -316,6 +316,40 @@ footer .col{
         width: calc(100% / 3 - 15px);
     }
 
+    .demo .col:last-child{
+        margin-bottom: 0;
+    }
+
+    .demo .col img{
+        width: 65%;
+    }
+
+    /* Section Testimonials */
+    .testimonials .col:first-child{
+        display: block;
+    }
+    .testimonials .col{
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonials .col div:last-child{
+        text-align: left;
+        padding: 0 30px;
+    }
+
+    .testimonials .col div h3:last-child{
+        padding-top: 20px;
+    }
+
+    .circular-landscape{
+        width: 310px;
+    }
+
+    #img-amelia{
+        margin: auto -45px;
+    }
+
     /* Section Benefits */
     .benefits .col{
         width: calc(100% / 2 - 10px);
@@ -324,7 +358,11 @@ footer .col{
     /* Section About Us */
     .about-us .col{
         width: calc(100% / 2 - 10px);
-    }   
+    }
+    
+    .about-us .col p{
+        margin-bottom: 3rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -340,19 +378,14 @@ footer .col{
 
     /* DA ELIMINARE */
     .planning .col:last-child{
-        height: 500px;
     }
 
-    .planning .col{
-        height: 800px;
-    
+    .planning .col{    
         width: calc(100% / 2);
     }
 
     /* Section Benefits */
     .benefits .col{
-        height: 200px;
-    
         width: calc(100% / 3 - 15px);
     }
 
