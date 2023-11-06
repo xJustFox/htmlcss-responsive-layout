@@ -3,3 +3,149 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Layout */
+.container{
+    max-width: 480px;
+    min-width: 360px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 0;
+}
+
+.col{
+    margin: 0 2rem;
+}
+
+.margin-b-3rem{
+    margin-bottom: 3rem;
+}
+
+                /* Header */
+
+/* Navigation Bar */
+nav .container{
+    height: 70px;
+}
+
+nav .row{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+                /* Main */
+
+/* Section Demo Application */
+.demo{
+    padding: 3rem 0;
+}
+
+.demo .col:first-child{
+    height: 800px;
+}
+
+.demo .col{
+    background-color: #5ac7fad2;
+    height: 400px;
+
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+/* Section Strategic Planning*/
+.planning{
+    padding: 3rem 0;
+}
+
+.planning .col{
+    background-color: #fa5a5ad2;
+    height: 800px;
+
+    width: 100%;
+}
+
+.planning .col:last-child{
+    background-color: white;
+    border-radius: 25px;
+}
+
+/* Section Testimonials */
+.testimonials{
+    padding: 3rem 0;
+}
+
+.testimonials .col{
+    background-color: #5856d6;
+    height: 400px;
+
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* Section Benefits */
+.benefits{
+    padding: 3rem 0;
+}
+
+.benefits .col{
+    background-color: white;
+    height: 400px;
+
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* Section About Us */
+.about-us{
+    padding: 3rem 0;
+}
+
+.about-us .col{
+    background-color: blue;
+    height: 600px;
+
+    width: 100%;
+}
+
+/* Section Started */
+.started{
+    padding: 3rem 0;
+}
+
+.started .col{
+    background-color: #3d3b96;
+    height: 800px;
+}
+
+                /* Footer */
+footer{
+    padding: 3rem 0;
+}
+
+footer .col{
+    background-color: gray;
+    height: 400px;
+
+    width: 100%;
+}
+
+/* Background Color */
+
+.bg-blue{
+    background-color: #007aff;
+}
+
+.bg-purple{
+    background-color: #5856d6;
+}
+
+.bg-black{
+    background-color: #0d0d0d;
+}
