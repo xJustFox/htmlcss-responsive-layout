@@ -117,9 +117,20 @@ nav .row{
 }
 
 /* Items Testimonials */
-.testimonials .col img{
-    width: 50%;
+
+.circular-landscape {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
     border-radius: 50%;
+}
+
+.circular-landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -35px;
 }
 
 .testimonials .col p:nth-child(2){
@@ -298,28 +309,20 @@ footer .col{
 
     /* Section Demo Application */
     .demo .col:first-child{
-        height: 500px;
-
         width: calc( (100% / 3 - 5px) * 2);
     }
 
     .demo .col{
-        height: 500px;
-    
         width: calc(100% / 3 - 15px);
     }
 
     /* Section Benefits */
     .benefits .col{
-        height: 200px;
-    
         width: calc(100% / 2 - 10px);
     }
 
     /* Section About Us */
     .about-us .col{
-        height: 600px;
-    
         width: calc(100% / 2 - 10px);
     }   
 }
