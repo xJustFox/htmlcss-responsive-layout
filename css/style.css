@@ -94,6 +94,11 @@ nav .col ul li:last-child{
     border-radius: 25px;
 }
 
+.demo .col img{
+    position: relative;
+    top: 4px;
+}
+
 /* Section Strategic Planning*/
 .planning{
     padding: 3rem 0;
@@ -204,6 +209,15 @@ nav .col ul li:last-child{
 }
 
 /* Items About Us */
+
+.about-us .col div i{
+    font-size: 4rem; 
+    color: rgba(151,146,228,255); 
+    position: relative; 
+    bottom: 160px; 
+    right: 60px;
+}
+
 .about-us .col img{
     width: 50%;
     border-radius: 50%;
@@ -386,6 +400,11 @@ footer .col{
     
     .about-us .col p{
         margin-bottom: 3rem;
+    }
+
+    .about-us .col div i{
+        bottom: 110px;
+        right: 40px; 
     }
 }
 
